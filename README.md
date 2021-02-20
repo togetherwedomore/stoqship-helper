@@ -28,3 +28,4 @@ We create all of your tokens n StoQroom  compatible to dynamic tokens to meet a
 Until the first working version gets out Storqese will test the current development in truffle console:
 
 1SQ Delegates a reference variable for deployed token contract When SMART ORDER BOOK STARTS
+100#pascalqese
