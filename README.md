@@ -1,22 +1,33 @@
 # stoqship-helper
-Potential- adventure
-Keys to cryptocurrency 
-From purchase off card individual file creates a profile User Relationship Bank ing/lending/Real Property Estate's
+
+Keys to Qpohn 
+
+echo "# shiny-octo-doodle" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main/Storqese-LLC
+git remote add origin https://github.com/togetherwedomore/shiny-octo-doodle.git
+git push -u origin main/S.       storqese.io
+
+From qpohn 0ff card individual file creates a profile User Relationship Bank ing/lending/Real Property Estate's
 Account/Membership and/or Subscription virtual digital asset Protection Holdings: Smart Contracts
 Smart Ledger(zedgler)Accounting SAAS
-Storqese.io APIRest SAP AS
+S.    storqese.io APIRest SAP AS
 
 
 
-Storqese LLC Sk1 
+    Storqese LLC Sk1 
+ 
 MLS ICC MCC ASCII 
 API REST J NODE APACHE V2.0
 JAVA C++ JSON REST API XTML
+
 ECI NETWORKS SMARTLEDGER CVC
 ARISTA STACK MINING TESLA NVIDIA
 
 
-Storqese Tokens to be supported Internet 2.0. One could use them to purchase goods globally from are 
+Storqese.io One could use them to qpohn off goods globally from are 
 Tele-Home Shopping&Delivery   
 Network System Blockchain Wallet   
 Regulation D PPM TKO IPO ICO SK1
@@ -29,3 +40,4 @@ Until the first working version gets out Storqese will test the current developm
 
 1SQ Delegates a reference variable for deployed token contract When SMART ORDER BOOK STARTS
 100#pascalqese
+
