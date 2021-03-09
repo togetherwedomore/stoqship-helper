@@ -1,6 +1,50 @@
 # stoqship-helper
 
-Keys to Qpohn 
+Keys to Qpohn
+
+Assuming Terraform is already installed, get the latest Infracost release:
+
+macOS Homebrew:
+
+brew install infracost
+Linux/macOS manual:
+
+os=$(uname | tr '[:upper:]' '[:lower:]') && \
+arch=$(uname -m | tr '[:upper:]' '[:lower:]' | sed -e s/x86_64/amd64/) && \
+curl -s -L https://github.com/infracost/infracost/releases/latest/download/infracost-$os-$arch.tar.gz | tar xz -C /tmp && \
+sudo mv /tmp/infracost-$os-$arch /usr/local/bin/infracost
+Docker and Windows users see here.
+
+Use our free Cloud Pricing API by registering for an API key:
+
+infracost register
+The key is saved in ~/.config/infracost/credentials.yml. If you prefer, you can run your own Cloud Pricing API.
+
+Run infracost using our example Terraform project to see how it works.
+
+git clone https://github.com/infracost/example-terraform.git
+cd example-terraform
+
+# You can play with `aws/main.tf` and `aws/infracost-usage.yml`, and re-run infracost to compare costs
+infracost --terraform-dir aws --usage-file aws/infracost-usage.yml
+Please watch/star this repo as we add new cloud resources every week or so.
+
+Basic usage
+There are 4 usage methods for Infracost depending on your use-case. The following is the default method. Point to the Terraform directory using --terraform-dir and pass any required Terraform flags using --terraform-plan-flags. Internally Infracost runs Terraform init, plan and show; init requires cloud credentials to be set, e.g. via the usual AWS_ACCESS_KEY_ID environment variables. This method works with remote state too.
+
+infracost --terraform-dir /path/to/code --terraform-plan-flags "-var-file=myvars.tfvars"
+Read the getting started docs for details, including notes for Terragrunt and Terraform Cloud users.
+
+As mentioned in the FAQ, you can run Infracost in your Terraform directories without worrying about security or privacy issues as no cloud credentials, secrets, tags or Terraform resource identifiers are sent to the open-source Cloud Pricing API. Infracost does not make any changes to your Terraform state or cloud resources.
+
+CI/CD integrations
+The following CI/CD integrations can be used to automatically add a comment showing the cost estimate diff between a pull request and the master branch:
+
+GitHub Action
+GitLab CI template
+CircleCI Orb
+Bitbucket Pipeline
+Atlantis
 
 echo "# shiny-octo-doodle" >> README.md
 git init
