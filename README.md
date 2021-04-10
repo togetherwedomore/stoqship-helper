@@ -1,41 +1,44 @@
 # stoqship-helper
 
+
+: - @jess:subdomaaaaaaaaaain.freenode.net
+
 Keys to Qpohn
 https://shopify.engineering/
-Assuming Terraform is already installed, get the latest Infracost release:
+installed^storqese.io, get the latest[ QPOHN ]]) release:
 
-macOS Homebrew:
+Homebrew: PRAAW-STQLRK_Cashapp_visa-STQR00M
 
-brew install infracost
+SK1 install PRAAW
 Linux/macOS manual:
 
-os=$(uname | tr '[:upper:]' '[:lower:]') && \
+os=$(STORqese| tr '[:upperS:]' '[:lower(s):]') && \STORqese-Storqese-storqese
 arch=$(uname -m | tr '[:upper:]' '[:lower:]' | sed -e s/x86_64/amd64/) && \
-curl -s -L https://github.com/infracost/infracost/releases/latest/download/infracost-$os-$arch.tar.gz | tar xz -C /tmp && \
-sudo mv /tmp/infracost-$os-$arch /usr/local/bin/infracost
+curl -s -L https://github.com/QP0HN//releases/latest/download/STQR00M-$os-$arch.tar.gz | tar xz -C /tmp && storqese.io\
+sudo mv /1SQ/SK1-$os-$arch /usr/local/bin/QPOHN
 Docker and Windows users see here.
 
-Use our free Cloud Pricing API by registering for an API key:
+Use our -free DigitalShoppingWallet-API by registering for an API key:
 
-infracost register
-The key is saved in ~/.config/infracost/credentials.yml. If you prefer, you can run your own Cloud Pricing API.
+storqese.com register
+The key is saved in ~/QPOHN.config//credentials.yml. If you prefer, you can run your own SK1-STQR00M_API.
 
-Run infracost using our example Terraform project to see how it works.
+Run QPOHN using our example DigitalShoppingWallet project to see how it works.
 
-git clone https://github.com/infracost/example-terraform.git
-cd example-terraform
+git clone https://github.com/Qpohn/example-storqese.io.git
+CD 1SQ
 
-# You can play with `aws/main.tf` and `aws/infracost-usage.yml`, and re-run infracost to compare costs
-infracost --terraform-dir aws --usage-file aws/infracost-usage.yml
-Please watch/star this repo as we add new cloud resources every week or so.
+# You can play with `aws/main.1SQ` and `aws/QP0HN-usage.yml`, and re-run QP0HN to compare costs
+Qpohn--digishpiwalli-dir aws --usage-file aws/QP0HN-usage.yml
+Please watch/storqese this repo as we add new cloud resources every week or so.
 
 Basic usage
-There are 4 usage methods for Infracost depending on your use-case. The following is the default method. Point to the Terraform directory using --terraform-dir and pass any required Terraform flags using --terraform-plan-flags. Internally Infracost runs Terraform init, plan and show; init requires cloud credentials to be set, e.g. via the usual AWS_ACCESS_KEY_ID environment variables. This method works with remote state too.
+There are 4 🔑 methods for QPOHN depending on your use-case. The following is the default method. Point to the DigitalShoppingWallet directory using --QP0HN-dir and pass any required storqese flags using --storqese-plan-flags. Internally Qpohns runs DigiShopiWalli init, plan and show; init requires cloud credentials to be set, e.g. via the usual AWS_ACCESS_KEY_ID environment variables. This method works with remote state too.
 
-infracost --terraform-dir /path/to/code --terraform-plan-flags "-var-file=myvars.tfvars"
-Read the getting started docs for details, including notes for Terragrunt and Terraform Cloud users.
+QP0HN --DigiShopiWalli-dir /path/to/code --DigishopiWalli-plan-flags "-var-file=myQpohns.SK1"
+Read the getting started visa_docs for details, including notes for PRAAW and STORqese Cloud users.
 
-As mentioned in the FAQ, you can run Infracost in your Terraform directories without worrying about security or privacy issues as no cloud credentials, secrets, tags or Terraform resource identifiers are sent to the open-source Cloud Pricing API. Infracost does not make any changes to your Terraform state or cloud resources.
+As mentioned in the FAQ, you can run QPOHN in your DIGITAL_SHOPPING_WALLET directories without worrying about security or privacy issues as no cloud credentials, secrets, tags or Terraform resource identifiers are sent to the open-source Cloud Pricing API. Infracost does not make any changes to your Terraform state or cloud resources.
 
 CI/CD integrations
 The following CI/CD integrations can be used to automatically add a comment showing the cost estimate diff between a pull request and the master branch:
