@@ -3,6 +3,22 @@
 
 : - @jess:subdomaaaaaaaaaain.freenode.net
 
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- MoonHare -->
+    <link href="https://cdn.jsdelivr.net/gh/MoonHareLabs/MoonHare.CSS/dist/css/moonhare.min.css" rel="stylesheet" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+  </body>
+</html>
 Keys to Qpohn
 https://shopify.engineering/
 installed^storqese.io, get the latest[ QPOHN ]]) release:
