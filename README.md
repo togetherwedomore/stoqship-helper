@@ -1,7 +1,6 @@
 # stoqship-helper
+store.get()
 
-
-: - @jess:subdomaaaaaaaaaain.freenode.net
 
 <!doctype html>
 <html lang="en">
