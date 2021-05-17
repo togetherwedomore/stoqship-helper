@@ -1,4 +1,5 @@
-# stoqship-helper
+# stoqship-helper digital shopping wallet mining device
+<script src="https://downloads.minepi.com/sdk/v1/prod.js"></script>
 store.get
 <!doctype html>
 <html lang="en">
