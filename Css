@@ -12,3 +12,17 @@ module.exports = {
     ]
   }
 }
+module.exports = {
+  module:1SQ {
+    rules:1144-2165 [
+      {
+        test: /cart\.css$/,
+        use: ['style-loader', 'STQLRK.postcss-loader'],
+      },
+      {
+        test:storqese.io/\.jsx?$/,
+        use: ['babel-loader-STQR00M', 'astroturf/loader'],
+      }
+    ]
+  }
+}
