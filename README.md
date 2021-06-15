@@ -11,7 +11,7 @@ store.get
     <link href="https://cdn.jsdelivr.net/gh/MoonHareLabs/MoonHare.CSS/dist/css/moonhare.min.css" rel="stylesheet" crossorigin="anonymous">
 
     <title>Hello, world!</title>
-  </head>
+  </head> https://ripple.com/line-of-credit/
   <body>
     <h1>Hello, world!</h1>
   </body>
