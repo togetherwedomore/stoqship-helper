@@ -1,5 +1,25 @@
 # stoqship-helper digital shopping wallet mining device
-<script src="https://downloads.minepi.com/sdk/v1/prod.js"></script>
+
+<script top-bar a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer {
+  border-top: 1px solid rgba(0,0,0,.1);
+  margin-top: 4em !important;
+  padding-top: 1em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+h2 {
+  margin-bottom: 2em;
+}
+
+.container {
+  padding-top: 2em;
+}="https://downloads.minepi.com/sdk/v1/prod.js"></script>
 store.get
 <!doctype html>
 <html lang="en">
